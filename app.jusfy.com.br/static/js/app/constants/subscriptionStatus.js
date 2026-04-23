@@ -1,0 +1,15 @@
+export const SUBSCRIPTION_STATUS = {
+    TRIAL_EXPIRED: 'trial_expired',
+    TRIALING: 'trialing',
+    OK: 'ok',
+    UNPAID: 'unpaid',
+    'Não Pago': 'unpaid',
+    PAID: 'paid',
+    'Paga': 'paid',
+    CANCELED: 'canceled',
+    'Cancelado': 'canceled',
+    WAITING_PAYMENT: 'waiting_payment',
+    PENDING_PAYMENT: 'pending_payment',
+    ACTIVE: 'active',
+    FAILED: 'failed',
+};

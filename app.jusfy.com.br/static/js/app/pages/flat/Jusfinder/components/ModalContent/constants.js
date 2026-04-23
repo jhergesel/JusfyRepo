@@ -1,0 +1,267 @@
+import QueryFormModal from "./QueryFormModal";
+import SuccessQueryModal from "./SuccessQueryModal";
+import LoadingQueryModal from "./LoadingQueryModal";
+import ErrorQueryModal from "./ErrorQueryModal";
+import BuyCreditsModal from "./BuyCreditsModal";
+import ChoosePlanModal from "./ChoosePlanModal";
+import AvailableSoonModal from "./AvailabelSoonModal";
+
+export const MODAL_TYPES = new Map([
+    ["QUERY_FORM_MODAL", QueryFormModal],
+    ["SUCCESS_QUERY_MODAL", SuccessQueryModal],
+    ["LOADING_QUERY_MODAL", LoadingQueryModal],
+    ["ERROR_QUERY_MODAL", ErrorQueryModal],
+    ["BUY_CREDITS_MODAL", BuyCreditsModal],
+    ["CHOOSE_PLAN_MODAL", ChoosePlanModal],
+    ["AVAILABLE_SOON_MODAL", AvailableSoonModal],
+]);
+
+export const PLAN_OPTIONS = {
+    relationship_tree: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de relacionamentos",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "3 consultas de relacionamentos",
+            additionalDescription: "+ 47 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "5 consultas de relacionamentos",
+            additionalDescription: "+ 125 outras consultas mensais",
+        },
+    ],
+    credit_restriction: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de restrição de crédito",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "3 consultas de restrição de crédito",
+            additionalDescription: "+ 47 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "5 consultas de restrição de crédito",
+            additionalDescription: "+ 125 outras consultas mensais",
+        },
+    ],
+    cpf_registration_status: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de situação cadastral",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consultas de situação cadastral",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consultas de situação cadastral",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    list_vehicles: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "Nenhuma consulta de veículos",
+            additionalDescription: "+ 7 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "2 consultas de veículos",
+            additionalDescription: "+ 48 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "5 consultas de veículos",
+            additionalDescription: "+ 125 outras consultas mensais",
+        },
+    ],
+    lawsuit: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "Nenhum buscador processual",
+            additionalDescription: "+ 7 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "Nenhum buscador processual",
+            additionalDescription: "+ 50 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "30 buscadores processuais",
+            additionalDescription: "+ 100 outras consultas mensais",
+        },
+    ],
+    professional_data: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de dados profissionais",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consulta de dados profissionais",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consulta de dados profissionais",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    company_information: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "Nenhuma consulta de empresa",
+            additionalDescription: "+ 7 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "2 consultas de empresa completo",
+            additionalDescription: "+ 48 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "5 consultas de empresa completo",
+            additionalDescription: "+ 125 outras consultas mensais",
+        },
+    ],
+    company_partnership: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "Nenhuma consulta de sociedades",
+            additionalDescription: "+ 7 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consulta de sociedades",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consulta de sociedades",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    vehicle_data: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "Nenhuma consulta de dados do veículo",
+            additionalDescription: "+ 7 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consulta de dados do veículo",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consulta de dados do veículo",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    trademarks: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de marcas e patentes",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consulta de marcas e patentes",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consulta de marcas e patentes",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    economic_group: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de grupo econômico",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "5 consultas de grupo econômico",
+            additionalDescription: "+ 45 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "10 consultas de grupo econômico",
+            additionalDescription: "+ 120 outras consultas mensais",
+        },
+    ],
+    personal_data: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "1 consulta de localização",
+            additionalDescription: "+ 6 outras consultas mensais",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "10 consultas de localização",
+            additionalDescription: "+ 40 outras consultas mensais",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "20 consultas de localização",
+            additionalDescription: "+ 110 outras consultas mensais",
+        },
+    ],
+    vehicle_tracking: [{
+            name: "Plano Starter",
+            price: "R$ 77,00",
+            mainDescription: "",
+            additionalDescription: "",
+        },
+        {
+            name: "Plano Master",
+            price: "R$ 97,00",
+            mainDescription: "",
+            additionalDescription: "",
+        },
+        {
+            name: "Plano Ultimate",
+            price: "R$ 117,00",
+            mainDescription: "",
+            additionalDescription: "",
+        },
+    ],
+};

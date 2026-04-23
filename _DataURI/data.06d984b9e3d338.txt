@@ -1,0 +1,1 @@
+chrome-extension://gojhcdgcpbpfigcaejpfhfegekdgiblk/web3/dispatcher.js
