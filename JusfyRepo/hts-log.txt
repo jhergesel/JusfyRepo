@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 23 Apr 2026 13:12:58 at https://app.jusfy.com.br/dashboard https://app.jusfy.com.br/jusfinder/query https://app.jusfy.com.br/oportunidades +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2t%Pn%s%u%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" -Y https://app.jusfy.com.br/dashboard https://app.jusfy.com.br/jusfinder/query https://app.jusfy.com.br/oportunidades -O1 "E:\Sites\JusfyRepo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:13:01	Warning: 	File not parsed, looks like binary: https://app.jusfy.com.br/robots.txt
+13:13:09	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://www.facebook.com/tr?id=216238710266810&ev=PageView&noscript=1
+13:13:14	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://app.jusfy.com.br/dashboard)
+13:13:14	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://app.jusfy.com.br/dashboard)
+13:13:16	Error: 	"Not Found" (404) at link https://www.googletagmanager.com/gtag/js?id=G-5S6PXWKRHK (from https://app.jusfy.com.br/dashboard)
+13:14:49	Warning: 	Found for www.googleadservices.com/pagead/conversion/380889985/?url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0&data=
+13:14:49	Warning: 	File has moved from www.googleadservices.com/pagead/conversion/380889985/?url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0&data= to http://googleads.g.doubleclick.net/pagead/viewthroughconversion/380889985/?url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0&data=&ct_cookie_present=false&random=917841053&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQI&cerd=CgEA&fsk=ChAI8IanzwYQkM6fuuz_sOBrEiwAQOa0Mr0xJ60NXLjJp_yOB5hp5qvtamOVhU7rGW2TN2_UCRI6_smN70gDxhoCokc&pscrd=IhMIiJKv8K6ElAMV72_dAh2opyPBMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAegwICWIICAAQABgAIAA
+13:14:51	Warning: 	Found for bat.bing.com/robots.txt
+13:14:51	Warning: 	File has moved from bat.bing.com/robots.txt to https://www.msn.com
+13:14:51	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=187036188&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:14:51	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=187110258&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:14:51	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:14:51	Warning: 	Found for www.googleadservices.com/pagead/conversion/380889985/?value=&label=nTyYCJnerYAYEIHXz7UB&url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0
+13:14:51	Warning: 	File has moved from www.googleadservices.com/pagead/conversion/380889985/?value=&label=nTyYCJnerYAYEIHXz7UB&url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0 to http://googleads.g.doubleclick.net/pagead/viewthroughconversion/380889985/?value=&label=nTyYCJnerYAYEIHXz7UB&url=http%3A%2F%2Fapp.jusfy.com.br%2Fdashboard&guid=ON&script=0&ct_cookie_present=false&random=402441538&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQI&cerd=CgEA&fsk=ChAI8IanzwYQkM6fuuz_sOBrEiwAQOa0MrbUOMp54oTLInK0SktFkEyEF2rwOSJu41sBSLT8k9Q6OkTKV5q-2BoC0js&pscrd=IhMI1vLkha-ElAMVX0_dAh2sYQc-MgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAegwICWIICAAQABgAIAA
+13:15:59	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=187036188&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:15:59	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=187110258&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:15:59	Warning: 	Retry after error -4 (No data (connection closed)) at link bat.bing.com/action/0?ti=&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:17:09	Error: 	"No data (connection closed)" (-4) after 2 retries at link bat.bing.com/action/0?ti=187036188&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:17:09	Error: 	"No data (connection closed)" (-4) after 2 retries at link bat.bing.com/action/0?ti=187110258&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+13:17:09	Error: 	"No data (connection closed)" (-4) after 2 retries at link bat.bing.com/action/0?ti=&Ver=2 (from https://www.googletagmanager.com/ns.html?id=GTM-TLTQGGL)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 11 seconds : 105 links scanned, 82 files written (13412756 bytes overall) [5590356 bytes received at 22272 bytes/sec], 11492593 bytes transferred using HTTP compression in 67 files, ratio 31%, 2.0 requests per connection
+(6 errors, 14 warnings, 0 messages)
