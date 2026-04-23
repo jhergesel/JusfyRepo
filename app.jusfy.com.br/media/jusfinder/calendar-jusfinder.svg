@@ -1,0 +1,16 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Blank-Calendar--Streamline-Core" clip-path="url(#clip0_9154_4233)">
+<g id="blank-calendar--blank-calendar-date-day-month-empty">
+<path id="Vector" d="M1.62335 2.02148C1.41231 2.02148 1.20992 2.10532 1.0607 2.25454C0.911471 2.40377 0.827637 2.60616 0.827637 2.8172V10.3765C0.827637 10.5875 0.911471 10.7899 1.0607 10.9391C1.20992 11.0883 1.41231 11.1722 1.62335 11.1722H10.3762C10.5872 11.1722 10.7897 11.0883 10.9389 10.9391C11.0881 10.7899 11.1719 10.5875 11.1719 10.3765V2.8172C11.1719 2.60616 11.0881 2.40377 10.9389 2.25454C10.7897 2.10532 10.5872 2.02148 10.3762 2.02148H8.78478" stroke="#838486" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M0.827637 4.8064H11.1719" stroke="#838486" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M3.21484 0.827881V3.21502" stroke="#838486" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M8.78467 0.827881V3.21502" stroke="#838486" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M3.21484 2.02148H7.19341" stroke="#838486" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_9154_4233">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
